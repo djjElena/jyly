@@ -1,0 +1,227 @@
+/*客户案例*/
+.tenfl{
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 50px;
+}
+.tenfl .main-md ul{
+    display: flex;
+    /*padding:20px 0;*/
+    line-height: 60px;
+}
+.tenfl .main-md ul li{
+    font-size: 14px;
+    width:10%;
+    text-align: center;
+}
+.tenfl .main-md ul li.active{
+    border-bottom: 1px solid #0093ff;
+}
+.tenfl .main-md ul li.active a{
+    color: #0093ff;
+}
+.tenfl .main-md ul li a{
+    color:#5d5d5d;
+}
+.lpdzerji-first{
+    margin: 50px 0 20px 0;
+}
+.lpdzerji-second{
+    margin: 0 0 30px 0;
+}
+.cpzs:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.cpzs{
+    padding-bottom: 50px;
+}
+.cpzs ul li{
+    float: left;
+    width:32%;
+    margin:0 10px 10px 0;
+}
+.cpzs ul li a img{
+    width: 100%;
+    height:256px;
+    overflow: hidden;
+}
+.cpzs ul li a p{
+    padding: 15px 0;
+    text-align: center;
+    font-size: 15px;
+}
+/*详情页*/
+.xqdetail img{
+    width:100%;
+    height:auto;
+    margin-bottom: 15px;
+}
+.xgtj ul li a img{
+    border: 1px solid #f0f0f0;
+}
+.aboutf h1{
+    margin: 50px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.aboutf ul{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutf ul li{
+    width:25%;
+    text-align: center;
+    border-right:1px solid #ccc;
+}
+.aboutf ul li:last-child{
+    border-right:0;
+}
+.aboutf ul li h2{
+    color:#a72126;
+    font-size: 30px;
+}
+.aboutf ul li p{
+    font-size: 16px;
+}
+.abouts{
+    margin-bottom: 65px;
+}
+.abouts b{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin: 70px 0 30px 0;
+}
+.abouts p{
+    line-height: 35px;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 16px;
+    color: #333333;
+}
+.hzhb{
+    padding:50px 0;
+}
+.hzhb h1{
+    margin: 0 0 50px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+/*礼品定制*/
+.leftaside{
+    position: fixed;
+    left:50px;
+    top:150px;
+    background: #f1f1f1;
+}
+.leftaside ul li{
+    padding:15px;
+    text-align: center;
+}
+.leftaside ul li a span{
+    font-size: 16px;
+    /*color:#fe4449;*/
+}
+.gift{
+    width:1500px;
+    margin:0 auto;
+}
+.gift>div{
+    float:left;
+}
+.middle{
+    width: 700px;
+    height: 0px;
+    padding-bottom: 25%;
+    overflow: hidden;
+    margin: 0 100px 0 70px;
+}
+.middle img{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+}
+.youce{
+    width: 550px;
+    height: 375px;
+    padding-top: 70px;
+}
+.youce h1{
+    font-size: 36px;
+    color:#22272c;
+}
+.youce p{
+    font-size: 16px;
+    margin:10px 0 40px 0;
+}
+.youce a{
+    color:#89cdef;
+    font-size: 16px;
+}
+.llpp>div:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.llpp>div{
+    padding:35px 0;
+    transition: all linear 0.5s;
+}
+.llpp>div:hover{
+    transition: all linear 0.5s;
+    background: #fe4449;
+}
+.llpp>div:hover .youce h1{
+    color:#fff;
+}
+.llpp>div:hover .youce p{
+    color:#fff;
+}
+.llpp>div:hover .youce a{
+    color:#fff;
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px){
+    /*.gift{*/
+        /*width:1200px;*/
+    /*}*/
+    .llpp{
+        width: 1200px;
+    }
+    .middle{
+        width: 650px;
+        margin: 0 50px 0 35px;
+    }
+    .youce{
+        width:500px;
+    }
+    .leftaside{
+        left:0;
+    }
+    .llpp>div:nth-child(even) .youce{
+        width:400px;
+        padding-left:30px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .middle{
+        width: 700px;
+        margin: 0 50px 0 35px;
+    }
+    .youce{
+        width:500px;
+    }
+    .leftaside{
+        left:0;
+    }
+    .llpp>div:nth-child(even) .youce{
+        width:400px;
+        padding-left:30px;
+    }
+    .youce h1 {
+        font-size: 25px;
+    }
+}
